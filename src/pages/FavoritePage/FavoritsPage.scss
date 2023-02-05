@@ -1,0 +1,36 @@
+.btn-back {
+    display: block;
+    width: 36px;
+    transform: rotate(180deg);
+    margin-left: 30px;
+    margin-top: 30px;
+
+    &:hover,
+    &:focus {
+        svg {
+            transform: translateX(10px);
+        }
+    }
+
+    svg {
+        fill: black;
+        transform: translateX(0);
+        transition: transform 0.8s;
+    }
+}
+
+.delete-item{
+    position: absolute;
+    z-index: 3000;
+    width: 50px;
+    right: 0;
+    opacity: 0;
+  
+}
+
+.film__item:hover{
+    .delete-item{
+        opacity: 1;
+        transition: 3s;
+    }
+}

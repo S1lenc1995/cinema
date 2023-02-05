@@ -1,0 +1,32 @@
+@import url('./layout/container.scss');
+
+.page__wrapper {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	min-height: 100vh;
+	
+	.main {
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+		padding-top: 50px;
+		box-sizing: border-box;
+	}
+}
+
+
+[src*=".svg"] {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+
+img {
+	margin: 0;
+	border: 0;
+}
