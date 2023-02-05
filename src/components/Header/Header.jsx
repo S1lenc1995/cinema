@@ -16,7 +16,7 @@ const Header = () => {
                 <h1 className='cinema'>Cinema</h1>
                 <div className="favorite-block">
                    <div className="count">{count}</div> 
-                    <Link to='/cinema/favorites'><Favourites className='heart' /></Link>
+                    <Link to='/favorites'><Favourites className='heart' /></Link>
                 </div>
             </div>
         </header>

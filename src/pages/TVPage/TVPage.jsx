@@ -44,7 +44,7 @@ const TVPage = () => {
 				<div className="header-bg" style={{backgroundImage: backgroundString}}/>
 				<div className="container">
 					<div className="header-wrapper">
-						<Link to="/cinema" className="btn-back"><RightArrow/></Link>
+						<Link to="/" className="btn-back"><RightArrow/></Link>
 						<div className="header-poster">
 						 <img src={`${IMG_URL}${poster_path}`} alt={name}/>
 						</div>
