@@ -40,7 +40,7 @@ const CinemaPage = () => {
 			<div className="header-bg" style={{backgroundImage: `url(${IMG_URL}${backdrop_path})`}}/>
 			<div className="container">
 				<div className="header-wrapper">
-					<Link to="/" className="btn-back"><RightArrow/></Link>
+					<Link to="/cinema" className="btn-back"><RightArrow/></Link>
 					<div className="header-poster">
 						<img src={`${IMG_URL}${poster_path}`} alt={title}/>
 					</div>

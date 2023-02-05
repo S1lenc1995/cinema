@@ -60,7 +60,7 @@ const Favirites = ({handlerCurrentFilm, handlerOpenModal})=>{
     return (
         <>
             <div className="films__title">Your favorites film</div>
-            <Link to="/"  className="btn-back" ><RightArrow/></Link>
+            <Link to="/cinema"  className="btn-back" ><RightArrow/></Link>
             {loading ? <div>loading</div> : <div className="films__slider">
                 <Swiper
                     slidesPerView={5}

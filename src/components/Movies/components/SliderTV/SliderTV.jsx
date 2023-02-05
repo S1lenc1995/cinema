@@ -9,7 +9,7 @@ import {actionFetchTvSlider} from "../../../../reducers";
 import 'swiper/css';
 
 const SliderTV = ({handlerCurrentFilm, handlerOpenModal}) => {
-    // const [tv, setTv] = useState([]);
+    
 
     const tv = useSelector(selectorTvSlider);
     const loading = useSelector(selectorTvLoading);
