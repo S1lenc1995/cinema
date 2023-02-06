@@ -13,7 +13,6 @@ function RootRouters() {
         <Route path="/cinema/:id" element={<CinemaPage />}/>
         <Route path="/tv/:id" element={<TVPage />}/>
         <Route path="/favorites" element={<Favirites />}/>
-
     </Routes>
     )
 }
